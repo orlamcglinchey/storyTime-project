@@ -2,7 +2,7 @@ Orla McGlinchey - 22510403
 
 https://github.com/orlamcglinchey/storyTime-project.git
 
-[YouTube link here]
+video - https://youtu.be/MLSa1NP3XIU
 
 Le diagramme est dans le dossier. 
 
