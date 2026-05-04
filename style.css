@@ -1,0 +1,138 @@
+body { 
+    font-family: "Times New Roman", Times, serif;
+    background: #fce4ec;
+    margin: 0;
+    padding: 0;
+    color: #880e4f;
+}
+.page {
+    max-width: 820px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #680000;
+    margin-bottom: 4px;
+    text-align:center;
+}
+
+h2 {
+    color: #880e4f;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+
+.login{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+    background:rgb(255, 255, 255)
+}
+
+.login-box {
+    background: #fff0f5;
+
+    border: 1px solid #f48fb1;
+    border-radius: 6px;
+    padding: 22px 24px;
+    flex: 1;
+    min-width: 220px;
+}
+
+input, textarea {
+     width: 300px; 
+     padding: 5px; 
+     background-color: rgb(255, 182, 226);
+
+    }
+input{
+    text-align:centre;
+}
+
+button {
+    background: #d52282;
+    color: white;
+    padding: 7px 16px;
+    font-size: 14px;
+    }
+button:hover{
+    background-color:rgb(255, 185, 226);
+}
+.room-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.room{
+    background: white;
+    border-radius: 6px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.room a {
+    color: #ff0088;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.room a:hover{
+    text-decoration:underline;
+}
+
+
+
+.sidebar h2{
+    color:#ff4ec7
+}
+
+.layout{
+        display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.head{
+    text-align:center;
+    font-size:25px;
+}
+
+
+
+
+.error { 
+    color: rgb(157, 0, 0); 
+    font-size:18px;
+}
+.success { 
+    color: green; 
+}
+nav { 
+    background: #680000; 
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+nav a {
+     color: white; 
+     margin-right: 15px; 
+     text-decoration: none; 
+    }
+
+nav a:hover { 
+    text-decoration: underline;
+ }
+
+
+.line {
+     border-bottom: 1px solid #ddd; 
+     padding: 5px 0; }
+.line small {
+     color: #888; 
+    }
